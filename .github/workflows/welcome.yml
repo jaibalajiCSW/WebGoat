@@ -1,10 +1,6 @@
 name: Welcome
 
-on:
-  issues:
-    types:
-      - opened
-
+on: push
 jobs:
   greeting:
     if: github.repository == 'WebGoat/WebGoat'
